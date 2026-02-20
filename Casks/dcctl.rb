@@ -3,7 +3,7 @@ cask "dcctl" do
   name "dcctl"
   desc "Docker Compose Control - manage Compose stacks per environment"
   homepage "https://github.com/hrodrig/dcctl"
-  version "0.1.4"
+  version "0.1.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "dcctl" do
     on_intel do
       url "https://github.com/hrodrig/dcctl/releases/download/v#{version}/dcctl_v#{version}_darwin_amd64.tar.gz",
         verified: "github.com/hrodrig/dcctl/"
-      sha256 "e8fa7d2cc78343cec4d149ca87134c9ffde2a6641ec91454b6225e0d2075956c"
+      sha256 "14c89a7855a9dfdc143546a32fd92e905f5a615ce0f94fa7cf98f085c4cb9f4b"
     end
     on_arm do
       url "https://github.com/hrodrig/dcctl/releases/download/v#{version}/dcctl_v#{version}_darwin_arm64.tar.gz",
         verified: "github.com/hrodrig/dcctl/"
-      sha256 "afab03f157d81c5e5bf48be9694965318b44b94a3c9c0e65b1554eb7fd0130b2"
+      sha256 "f71cf66d4a4cb2102c9a6cf79423e1e852e32bad871fbd423dbf84f419aff085"
     end
   end
 
@@ -28,12 +28,12 @@ cask "dcctl" do
     on_intel do
       url "https://github.com/hrodrig/dcctl/releases/download/v#{version}/dcctl_v#{version}_linux_amd64.tar.gz",
         verified: "github.com/hrodrig/dcctl/"
-      sha256 "0119f0c4356b6e901123098c3ba32c15b1920a2a787e98911901a613f70756a1"
+      sha256 "e4c467434d2091f84cc7ec0c305453ef252d3a8cddc1038d268dfee39e46205c"
     end
     on_arm do
       url "https://github.com/hrodrig/dcctl/releases/download/v#{version}/dcctl_v#{version}_linux_arm64.tar.gz",
         verified: "github.com/hrodrig/dcctl/"
-      sha256 "ec39aa43d50750959dfb585551719fb3941dde2d88b5ccf11f842ffa5af5c75c"
+      sha256 "098920313f7229edffabdf46eb743ae4297a3b36e449673164a4b27d116ac07c"
     end
   end
 
